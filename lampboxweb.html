@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LAMP Stack Request</title>
+  </head>
+  <body>
+    <h1>LAMP Stack Request Form</h1>
+    <form method="post" action="https://your-azure-function-url-here.azurewebsites.net/api/lamp-request">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="lamp-type">LAMP Stack Type:</label>
+      <select id="lamp-type" name="lamp-type">
+        <option value="developer">Developer LAMP Stack</option>
+        <option value="standard">Standard LAMP Stack</option>
+      </select><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
